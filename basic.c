@@ -6,29 +6,18 @@
 int main()
 {
 
-    int n;
-    scanf("%d", &n);
+    int a, b;
+    scanf("%d %d", &a, &b);
 
-    int leftAmount = n;
-
-    if (leftAmount <= 1000)
+    if (a % b == 0 || b % a == 0)
     {
-        printf("Bad luck!\n");
+        printf("Multiples");
     }
     else
     {
+        printf("No Multiples");
+    };
 
-        printf("I will buy Punjabi\n");
-        leftAmount = leftAmount - 1000;
-
-        if (leftAmount >= 500)
-        {
-            printf("I will buy new shoes\nAlisa will buy new shoes");
-        }
-    }
-
-    // printf("%d", leftAmount);
-
-    /* Enter your code here. Read input from STDIN. Print output to STDOUT */
+    
     return 0;
 }
