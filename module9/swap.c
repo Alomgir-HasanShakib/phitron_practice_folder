@@ -13,4 +13,4 @@ int main()
     printf("A = %d\nB = %d", a, b);
 
     return 0;
-}
+}  
